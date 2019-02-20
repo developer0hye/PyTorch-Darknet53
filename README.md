@@ -2,7 +2,9 @@
 
 This is PyTorch implementation of Darknet53 network discussed in [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf) used for feature extractor of YOLOv3.
 
-![darknet53_resized_2](https://user-images.githubusercontent.com/35001605/53087467-9844ab80-354a-11e9-86e2-2af9f7213927.png)
+# Network Structure
+
+![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53088231-7fd59080-354c-11e9-8d66-7cad412e3aeb.png)
 
 
 ## Reference
