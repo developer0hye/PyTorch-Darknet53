@@ -1,3 +1,4 @@
 # Darknet53
 
-![darknet53](https://user-images.githubusercontent.com/35001605/53079345-8a3a5f00-3539-11e9-8564-d137082771e2.png)
+![darknet53_resized](https://user-images.githubusercontent.com/35001605/53079675-48f67f00-353a-11e9-917b-c0f278b822f4.png)
+
