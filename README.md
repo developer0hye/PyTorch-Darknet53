@@ -4,7 +4,7 @@ This is PyTorch implementation of Darknet53 network discussed in [ [1] ](https:/
 
 # Network Structure
 
-![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53088231-7fd59080-354c-11e9-8d66-7cad412e3aeb.png)
+![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53088407-f83c5180-354c-11e9-897b-02eb7c3bd790.png)
 
 
 ## Reference
