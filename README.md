@@ -38,10 +38,10 @@ python train.py --data [your imagenet directory] --gpu 0 -b 64
 b is a batch size for training and test, you can adjust this number.
 
 ## Benchmark
-- framework: PyTorch
+- Framework: PyTorch
 - GPU: GTX 1080 Ti 11GB
 - Batchsize: 1
-- Input shape: 3 x 224 x 224
+- Input Shape(CWH): 3 x 224 x 224 
 
 **GPU time**
 ```
