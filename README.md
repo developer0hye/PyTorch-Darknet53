@@ -3,21 +3,20 @@
 This is implementation of Darknet53 network discussed in [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf) used for feature extractor of YOLOv3.
 
 This new network is more efficient than ResNet-101 or ResNet-152.
+
 Here are some ImageNet results:
 
+- Framework: Darknet [ [2] ](https://github.com/pjreddie/darknet)
+- GPU: Titan X
+- Input Shape(CWH): 3 x 256 x 256 
+
 ![darknet_table](https://user-images.githubusercontent.com/35001605/53488653-4b288280-3ad2-11e9-9aba-f14cbfc65c0c.PNG)
-
-Each network is trained with identical settings and tested at 256×256, single crop accuracy. 
-
-Run times are measured on a Titan X at 256 × 256. 
 
 Thus Darknet-53 performs on par with state-of-the-art classifiers but with fewer floating point operations and more speed. 
 
 **Darknet-53 is better than ResNet-101 and 1.5× faster.**
 
 **Darknet-53 has similar performance to ResNet-152 and is 2× faster [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf).** 
-
-This experiment used the Darknet neural network framework for training and testing [ [2] ](https://github.com/pjreddie/darknet).
 
 ## Network Structure
 
