@@ -15,7 +15,7 @@ Thus Darknet-53 performs on par with state-of-the-art classifiers but with fewer
 
 **Darknet-53 is better than ResNet-101 and 1.5× faster.**
 
-**Darknet-53 has similar performance to ResNet-152 and is 2× faster.** [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+**Darknet-53 has similar performance to ResNet-152 and is 2× faster [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf).** 
 
 This experiment used the Darknet neural network framework for training and testing [ [2] ](https://github.com/pjreddie/darknet).
 
