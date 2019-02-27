@@ -45,7 +45,7 @@ b is a batch size for training and test, you can adjust this number.
 - GPU: GTX 1080 Ti 11GB
 - CPU: i7 6550 3.4 GHZ
 - RAM: 16 GB
-- Batchsize: 1
+- Batch Size: 1
 - Input Shape(CWH): 3 x 224 x 224 
 
 **On GPU**
