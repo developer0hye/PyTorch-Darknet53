@@ -4,7 +4,7 @@ This is implementation of Darknet53 network discussed in [ [1] ](https://pjreddi
 
 # Network Structure
 
-![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53088407-f83c5180-354c-11e9-897b-02eb7c3bd790.png)
+![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53487913-2df2b480-3ad0-11e9-9788-b2feab624786.png)
 
 # Trainining
 
