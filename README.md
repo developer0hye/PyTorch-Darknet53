@@ -8,5 +8,13 @@ This is implementation of Darknet53 network discussed in [ [1] ](https://pjreddi
 
 # Trainining
 
+- Download the ImageNet dataset and move validation images to labeled subfolders
+    - To do this, you can use [the following script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh)
+    
+```
+python train.py --data [your imagenet directory] --gpu 0 -b 64
+```
+b is a batch size for training and test, you can adjust this number.
+
 ## Reference
 >[ [1] YOLOv3: An Incremental Improvement ](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
