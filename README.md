@@ -40,23 +40,25 @@ b is a batch size for training and test, you can adjust this number.
 ## Benchmark
 - Framework: PyTorch
 - GPU: GTX 1080 Ti 11GB
+- CPU: i7 6550 3.4 GHZ
+- RAM: 16 GB
 - Batchsize: 1
 - Input Shape(CWH): 3 x 224 x 224 
 
-**GPU time**
+**On GPU**
 ```
-resnet101 : 0.034906
-resnet152 : 0.055852
-densenet121 : 0.041888
-darknet53 : 0.017952
+resnet101 : 0.034906 sec
+resnet152 : 0.055852 sec
+densenet121 : 0.041888 sec
+darknet53 : 0.017952 sec
 ```
 
-**CPU time**
+**On CPU**
 ```
-resnet101 : 0.675194
- resnet152 : 0.949459
-densenet121 : 0.649266
- darknet53 : 0.405916
+resnet101 : 0.675194 sec
+ resnet152 : 0.949459 sec
+densenet121 : 0.649266 sec
+ darknet53 : 0.405916 sec
 ```
 
 ## Reference
