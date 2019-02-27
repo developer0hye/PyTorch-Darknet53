@@ -43,7 +43,7 @@ b is a batch size for training and test, you can adjust this number.
 - Batchsize: 1
 - Input shape: 3 x 224 x 224
 
-GPU time
+**GPU time**
 ```
 resnet101 : 0.034906
 resnet152 : 0.055852
@@ -51,7 +51,7 @@ densenet121 : 0.041888
 darknet53 : 0.017952
 ```
 
-CPU time
+**CPU time**
 ```
 resnet101 : 0.675194
  resnet152 : 0.949459
