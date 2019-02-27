@@ -28,17 +28,8 @@ Thus Darknet-53 performs on par with state-of-the-art classifiers but with fewer
     - To do this, you can use [the following script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh)
 
 ```
-../
-    imagenet/
-        train/
-            ...
-        val/
-            ...
+python train.py --data [imagenet-folder with train and val folders] --gpu 0 -b 64
 ```
-```
-python train.py --data [your imagenet directory] --gpu 0 -b 64
-```
-b is a batch size for training and test, you can adjust this number.
 
 ## Benchmark
 - Framework: PyTorch
@@ -68,3 +59,5 @@ darknet53 : 0.405916 sec
 >[ [1] YOLOv3: An Incremental Improvement ](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 
 >[ [2] darknet framework ](https://github.com/pjreddie/darknet)
+
+>[ [3] ImageNet training in PyTorch](https://github.com/pytorch/examples/tree/master/imagenet)
