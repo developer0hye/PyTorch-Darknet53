@@ -12,8 +12,6 @@ Here are some ImageNet results:
 
 ![darknet_table](https://user-images.githubusercontent.com/35001605/53488653-4b288280-3ad2-11e9-9aba-f14cbfc65c0c.PNG)
 
-Thus Darknet-53 performs on par with state-of-the-art classifiers but with fewer floating point operations and more speed. 
-
 **Darknet-53 is better than ResNet-101 and 1.5× faster.**
 
 **Darknet-53 has similar performance to ResNet-152 and is 2× faster [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf).** 
