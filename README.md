@@ -28,10 +28,14 @@ This experiment used the Darknet neural network framework for training and testi
 - Download the ImageNet dataset and move validation images to labeled subfolders
     - To do this, you can use [the following script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh)
 
-
 ```
+../
+    imagenet/
+        train/
+            ...
+        val/
+            ...
 ```
-
 ```
 python train.py --data [your imagenet directory] --gpu 0 -b 64
 ```
@@ -56,9 +60,9 @@ darknet53 : 0.017952 sec
 **On CPU**
 ```
 resnet101 : 0.675194 sec
- resnet152 : 0.949459 sec
+resnet152 : 0.949459 sec
 densenet121 : 0.649266 sec
- darknet53 : 0.405916 sec
+darknet53 : 0.405916 sec
 ```
 
 ## Reference
