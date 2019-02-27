@@ -52,7 +52,7 @@ class Darknet53(nn.Module):
         self.conv6 = conv_batch(512, 1024, stride=2)
         self.residual_block5 = self.make_layer(block, in_channels=1024, num_blocks=4)
         self.global_avg_pool = nn.AdaptiveAvgPool2d((1, 1))
-        self.classifier = nn.Conv2d(1024, num_classes, kernel_size=1, stride=1, padding=0)
+        self.fc = nn.Linear(1024, self.num_classes)
 
     def forward(self, x):
         out = self.conv1(x)
@@ -67,8 +67,8 @@ class Darknet53(nn.Module):
         out = self.conv6(out)
         out = self.residual_block5(out)
         out = self.global_avg_pool(out)
-        out = self.classifier(out)
-        out = out.view(-1, self.num_classes)
+        out = out.view(-1, 1024)
+        out = self.fc(out)
 
         return out
 
