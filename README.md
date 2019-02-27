@@ -13,7 +13,9 @@ Run times are measured on a Titan X at 256 × 256.
 
 Thus Darknet-53 performs on par with state-of-the-art classifiers but with fewer floating point operations and more speed. 
 
-**Darknet-53 is better than ResNet-101 and 1.5× faster. Darknet-53 has similar performance to ResNet-152 and is 2× faster.** [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+**Darknet-53 is better than ResNet-101 and 1.5× faster. 
+
+Darknet-53 has similar performance to ResNet-152 and is 2× faster.** [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 
 
 # Network Structure
