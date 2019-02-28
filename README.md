@@ -24,6 +24,7 @@ Here are some ImageNet results:
 
 - Download the ImageNet dataset and move validation images to labeled subfolders
     - To do this, you can use [the following script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh)
+- imagenet data is processed [as described here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md#download-the-imagenet-dataset)
 
 ```
 python train.py --data [imagenet-folder with train and val folders] --gpu 0 -b 64
