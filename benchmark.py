@@ -8,19 +8,31 @@ from model import darknet53
 
 def speed(model, name):
     with torch.no_grad():
-        torch.cuda.synchronize()
-        input = torch.rand(1, 3, 224, 224).cuda()
+        model.eval()
+
+        t0 = time.time()
+        input = torch.rand(1,3,224, 224).cuda()
         input = Variable(input)
-
-
-        model(input)
-
-
         t1 = time.time()
-        model(input)
-        t2 = time.time()
 
-        print('%10s : %f' % (name, t2 - t1))
+        model(input)
+
+        avg_time = 0
+
+        for i in range(0, 10):
+            torch.cuda.synchronize()
+            t2 = time.time()
+
+            model(input)
+
+            torch.cuda.synchronize()
+            t3 = time.time()
+
+            avg_time += t3 - t2
+
+        avg_time /= 10.0
+
+        print('%10s : %f' % (name, avg_time))
 
 
 if __name__ == '__main__':
