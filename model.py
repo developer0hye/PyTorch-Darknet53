@@ -1,12 +1,5 @@
-import os
-from PIL import Image
-
 import torch
-from torch.utils.data import Dataset, DataLoader
 from torch import nn
-from torchvision import transforms
-from torchsummary import summary
-
 
 def conv_batch(in_num, out_num, kernel_size=3, padding=1, stride=1):
     return nn.Sequential(
