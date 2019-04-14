@@ -12,13 +12,23 @@ Here are some ImageNet results:
 
 ![darknet_table](https://user-images.githubusercontent.com/35001605/53488653-4b288280-3ad2-11e9-9aba-f14cbfc65c0c.PNG)
 
+
 **Darknet-53 is better than ResNet-101 and 1.5× faster.**
 
 **Darknet-53 has similar performance to ResNet-152 and is 2× faster [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf).** 
 
+
+**But when I trained this model, I could not get the good results like the above table.**
+
+**I got 75.xx% accracy on Imagenet dataset for validation.**
+
+[Pretrained model_weight_download](https://drive.google.com/open?id=1keZwVIfcWmxfTiswzOKUwkUz2xjvTvfm)
+
+
 ## Network Structure
 
 ![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53487913-2df2b480-3ad0-11e9-9788-b2feab624786.png)
+
 
 ## Trainining
 
