@@ -30,7 +30,7 @@ Here are some ImageNet results:
 ![webp net-resizeimage](https://user-images.githubusercontent.com/35001605/53487913-2df2b480-3ad0-11e9-9788-b2feab624786.png)
 
 
-## Trainining
+## Training
 
 - Download the ImageNet dataset and move validation images to labeled subfolders
     - To do this, you can use [the following script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh)
