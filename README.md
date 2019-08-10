@@ -18,7 +18,7 @@ Here are some ImageNet results:
 **Darknet-53 has similar performance to ResNet-152 and is 2× faster [ [1] ](https://pjreddie.com/media/files/papers/YOLOv3.pdf).** 
 
 
-**But when I trained this model, I could not get the good results like the above table.**
+**But when I trained and tested this model with 224x224 input image, I could not get the good results like the above table.**
 
 **I got 75.xx% accracy on Imagenet dataset for validation.**
 
