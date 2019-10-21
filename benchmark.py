@@ -10,10 +10,7 @@ def speed(model, name):
     with torch.no_grad():
         model.eval()
 
-        t0 = time.time()
         input = torch.rand(1,3,224, 224).cuda()
-        input = Variable(input)
-        t1 = time.time()
 
         model(input)
 
