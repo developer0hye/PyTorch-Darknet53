@@ -20,7 +20,7 @@ Here are some ImageNet results:
 
 **But when I trained and tested this model with 224x224 input image, I could not get the good results like the above table.**
 
-**I got 75.xx% accracy on Imagenet dataset for validation.**
+**I got 75.xx% accracy on Imagenet validation dataset.**
 
 [Pretrained model_weight_download](https://drive.google.com/open?id=1keZwVIfcWmxfTiswzOKUwkUz2xjvTvfm)
 
